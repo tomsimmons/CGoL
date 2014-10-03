@@ -1,0 +1,22 @@
+Conway's Game of Life
+
+Background
+==========
+I find the best way to learn a language is with a specific project in mind, so
+after learning the basics of Processing (before actually learning Java) I
+decided to delve a little deeper with this project. I do not claim it's perfect
+or even that great an implementation, but it works as best I can tell. Thus, I
+give you Conway's Game of Life.
+
+Usage
+=====
+This sketch was started in Processing 1.5.1, so that version and above should
+work just fine. As with all Processing sketches, just open in the IDE and press
+play.
+
+Clicking will place a cell on the grid. Click a living cell again to remove it.
+The Game of Life is a zero-player game, so press start, sit back, and watch.
+
+License
+=======
+See the included LICENSE file for details

@@ -27,12 +27,16 @@ Button reset = new Button(((cellsAcross * 10)>>>1) + 80, (cellsDown * 10) + 3, 6
 
 String mode = "setup"; // Can be "living" when running, "paused" when paused, or "setup" when initializing
 
-void setup()
+// Call settings() first to comply with Processing 3.0 reqs
+void settings()
 {
     // Each cell is 10px tall and wide, +30 is for buttons
     size(cellsAcross * 10, (cellsDown * 10) + 30);
     smooth();
-    
+}
+
+void setup()
+{
     f = loadFont("Consolas-Bold-22.vlw");
     textFont(f, 14);
     textAlign(CENTER,CENTER);
@@ -247,8 +251,3 @@ class Button
         return false;
     }
 }
-
-
-
-
-
